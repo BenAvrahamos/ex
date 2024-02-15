@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+h1{
+    padding-inline: 10px;
+
+}
+
+table{
+    padding-inline: 10px;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+table th {
+    padding: 10px;
+    background-color: gainsboro;
+    border: solid black 1px;
+
+}
+table td {
+    padding: 10px;
+    border: solid rgba(0, 0, 0, 0.322) 1px;
+
+}
+
+td button{
+    padding: 10px;
+    border-radius: 10%;
+    font-size: 20px;
+
+
+}
+
+.readBtn{
+    background-color: rgba(112, 233, 64, 0.63);
+
+}
+
+.updateBtn{
+    background-color: orange;
+
+}
+
+.deleteBtn{
+    background-color: rgba(211, 73, 73, 0.822);
+
+}
